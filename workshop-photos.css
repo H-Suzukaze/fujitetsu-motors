@@ -1,0 +1,165 @@
+/* Actual workshop photography */
+.hero-bg {
+  background:
+    linear-gradient(90deg, rgba(5, 19, 32, .95) 0%, rgba(5, 19, 32, .78) 42%, rgba(5, 19, 32, .48) 100%),
+    url("assets/workshop-tires.jpg") center 57% / cover no-repeat;
+}
+
+.workshop-photo {
+  min-height: 560px;
+}
+
+.workshop-photo img {
+  filter: saturate(.78) contrast(1.04);
+}
+
+.main-photo img {
+  object-position: center 48%;
+}
+
+.detail-photo img {
+  object-position: center 58%;
+  transform: none;
+}
+
+.service-note {
+  margin: 22px 0 0;
+  color: #91a3b1;
+  font-size: 10px;
+}
+
+.first-visit {
+  padding: 72px 0;
+  background: #e3e8ec;
+  border-bottom: 1px solid #cfd7dd;
+}
+
+.first-visit-inner {
+  display: grid;
+  grid-template-columns: .7fr 1.3fr;
+  gap: 90px;
+  align-items: center;
+}
+
+.first-visit h2 {
+  margin: 0;
+  color: var(--navy);
+  font: 600 clamp(30px, 3.5vw, 43px) / 1.5 "Yu Mincho", "Hiragino Mincho ProN", serif;
+  letter-spacing: .08em;
+}
+
+.first-visit-copy {
+  padding-left: 45px;
+  border-left: 1px solid #c3cdd4;
+}
+
+.first-visit-copy p {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.first-visit-copy a {
+  max-width: 430px;
+  min-height: 58px;
+  padding: 0 22px;
+  background: var(--navy);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.first-visit-copy strong {
+  font: 20px Georgia, serif;
+}
+
+.first-visit-copy span {
+  margin-left: auto;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, .13);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.creator-info {
+  color: #778b99;
+  font-size: 9px;
+  line-height: 1.7;
+  letter-spacing: .04em;
+}
+
+.creator-info p {
+  margin: 0 0 2px;
+}
+
+.creator-info a {
+  color: #9aabb6;
+  border-bottom: 1px solid rgba(154, 171, 182, .45);
+  transition: color .2s, border-color .2s;
+}
+
+.creator-info a:hover {
+  color: #fff;
+  border-color: rgba(255, 255, 255, .7);
+}
+
+.creator-note {
+  margin-top: 7px !important;
+  color: #647a89;
+}
+
+.copyright-text {
+  flex: 0 0 auto;
+  color: #687e8e;
+  font: 8px Arial, sans-serif;
+  letter-spacing: .15em;
+}
+
+@media (max-width: 760px) {
+  .hero-bg {
+    background:
+      linear-gradient(90deg, rgba(5, 19, 32, .9), rgba(5, 19, 32, .6)),
+      url("assets/workshop-tires.jpg") center 56% / cover no-repeat;
+  }
+
+  .workshop-photo {
+    min-height: 460px;
+  }
+
+  .detail-photo {
+    display: block;
+  }
+
+  .first-visit {
+    padding: 60px 0;
+  }
+
+  .first-visit-inner {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .first-visit-copy {
+    padding: 0;
+    border: 0;
+  }
+
+  .first-visit-copy a {
+    max-width: none;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

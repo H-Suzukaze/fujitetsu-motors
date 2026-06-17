@@ -1,301 +1,172 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f4f9fc">
-  <meta name="description" content="岩手県盛岡市山岸の菅野小児科医院。一般小児科、予防接種、乳幼児健診、海外渡航・留学前のワクチン相談に対応しています。">
-  <title>菅野小児科医院｜岩手県盛岡市山岸</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="有限会社藤鉄モータースは、盛岡市南大通の地域に根ざした自動車整備工場です。車検・点検整備・修理など、お車のことを丁寧に承ります。">
+  <title>有限会社 藤鉄モータース | 盛岡市南大通の自動車整備工場</title>
   <link rel="stylesheet" href="styles.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalClinic",
-    "name": "菅野小児科医院",
-    "medicalSpecialty": "Pediatric",
-    "telephone": "+81-19-622-4448",
-    "faxNumber": "+81-19-622-4446",
-    "address": {
-      "@type": "PostalAddress",
-      "postalCode": "020-0004",
-      "addressRegion": "岩手県",
-      "addressLocality": "盛岡市",
-      "streetAddress": "山岸2-11-36",
-      "addressCountry": "JP"
-    }
-  }
-  </script>
+  <link rel="stylesheet" href="workshop-photos.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">本文へ移動</a>
-
-  <header class="site-header">
-    <div class="header-inner container">
-      <a class="brand" href="#top" aria-label="菅野小児科医院 ホーム">
-        <span class="brand-mark" aria-hidden="true">+</span>
-        <span><strong>菅野小児科医院</strong><small>岩手県盛岡市山岸</small></span>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="藤鉄モータース ホーム">
+        <span class="brand-mark" aria-hidden="true">藤</span>
+        <span class="brand-copy"><strong>藤鉄モータース</strong><small>FUJITETSU MOTORS</small></span>
       </a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="global-nav">
-        <span class="menu-icon" aria-hidden="true"></span>
-        <span>メニュー</span>
-      </button>
-      <nav id="global-nav" class="global-nav" aria-label="メインナビゲーション">
-        <a href="#about">当院について</a>
-        <a href="#services">診療案内</a>
-        <a href="#hours">診療時間</a>
-        <a href="#access">アクセス</a>
-        <a class="nav-phone" href="tel:0196224448">電話する</a>
+      <button class="menu-button" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="global-nav" aria-label="メインナビゲーション">
+        <a href="#about">私たちについて</a>
+        <a href="#services">サービス</a>
+        <a href="#workshop">作業場紹介</a>
+        <a href="#company">会社概要</a>
+        <a class="header-phone" href="tel:0196533033"><small>お電話はこちら</small><strong>019-653-3033</strong></a>
       </nav>
     </div>
   </header>
 
-  <main id="main">
-    <section id="top" class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">盛岡市山岸の小児科</p>
-          <h1>菅野小児科医院</h1>
-          <p class="hero-lead">地域のお子様の健康を支え、お子様とご家族が安心して相談できる身近な医院を目指しています。</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="tel:0196224448">
-              <span aria-hidden="true">☎</span>
-              <span><small>お電話はこちら</small>019-622-4448</span>
-            </a>
-            <a class="button button-secondary" href="#hours">診療時間を見る</a>
-          </div>
-        </div>
-        <aside class="today-card" aria-labelledby="today-title">
-          <div class="today-card-head">
-            <span class="status-dot" aria-hidden="true"></span>
-            <p id="today-title">本日の診療</p>
-          </div>
-          <p id="today-status" class="today-status" aria-live="polite">診療時間を確認しています</p>
-          <div id="today-hours" class="today-hours"></div>
-          <p class="today-note">※祝日は休診です。臨時休診はお電話でご確認ください。</p>
-          <a href="#hours">週間の診療時間を見る</a>
-        </aside>
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow hero-eyebrow">盛岡市南大通の自動車整備工場</p>
+        <h1>創業74年。<br>地域に根ざした<br>丁寧な仕事。</h1>
+        <p class="hero-lead">車検・点検整備・修理まで。<br>盛岡の皆さまのカーライフを支えます。</p>
+        <a class="button button-primary" href="tel:0196533033"><span class="phone-symbol">TEL</span><span>019-653-3033<small>受付時間 9:00〜18:00</small></span></a>
+      </div>
+      <div class="hero-badge"><strong>74</strong><span>YEARS<br>IN MORIOKA</span></div>
+    </section>
+
+    <section class="quick-info" aria-label="営業情報">
+      <div class="container quick-grid">
+        <div><span>所在地</span><strong>盛岡市南大通二丁目6番22号</strong></div>
+        <div><span>営業時間</span><strong>9:00〜18:00</strong></div>
+        <div><span>定休日</span><strong>土曜・日曜・祝日</strong></div>
       </div>
     </section>
 
-    <section class="notice-section section">
-      <div class="container">
-        <div class="section-heading inline-heading">
-          <div>
-            <p class="eyebrow">Information</p>
-            <h2>お知らせ</h2>
-          </div>
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT FUJITETSU MOTORS</p>
+          <h2>一台一台に、<br>まっすぐ向き合う。</h2>
         </div>
-        <div class="notice-list">
-          <article class="notice-card">
-            <div class="notice-meta">
-              <!-- お知らせの日付：表示とdatetime属性を一緒に変更してください -->
-              <time datetime="2026-06-10">2026.06.10</time>
-              <span class="notice-category">お知らせ</span>
-            </div>
-            <h3>ホームページを公開しました</h3>
-            <p>菅野小児科医院のホームページを公開しました。診療時間や予防接種に関する情報を掲載しています。</p>
-          </article>
-          <article class="notice-card">
-            <div class="notice-meta">
-              <!-- お知らせの日付：表示とdatetime属性を一緒に変更してください -->
-              <time datetime="2026-06-10">2026.06.10</time>
-              <span class="notice-category">予防接種</span>
-            </div>
-            <h3>予防接種のご相談について</h3>
-            <p>予防接種、免疫保有状況、海外渡航・留学前の接種相談については、お電話にてお問い合わせください。</p>
-          </article>
-          <article class="notice-card">
-            <div class="notice-meta">
-              <!-- お知らせの日付：表示とdatetime属性を一緒に変更してください -->
-              <time datetime="2026-06-10">2026.06.10</time>
-              <span class="notice-category">診療案内</span>
-            </div>
-            <h3>ご来院前にお電話ください</h3>
-            <p>症状やご相談内容によってご案内が異なる場合があります。ご来院前にお電話での確認をお願いいたします。</p>
-          </article>
+        <div class="about-copy">
+          <p class="large-copy">盛岡市南大通で、地域に根ざした整備工場として長年営業してきました。</p>
+          <p>派手さよりも、一台一台に丁寧に向き合うことを大切にしています。お車の状態や必要な整備について、できるだけわかりやすくご説明し、安心してお任せいただける仕事を積み重ねてきました。</p>
+          <p>知り合いや地域の皆さまに長くご利用いただいている、町の整備工場です。気になることがありましたら、どうぞ気軽にお電話ください。</p>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section section-tint">
+    <section class="section reasons" id="reasons">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow">About us</p>
-          <h2>当院について</h2>
-          <p>お子さまの健やかな成長に寄り添い、地域の皆さまに信頼される医療を大切にしています。</p>
+          <div><p class="eyebrow">OUR STRENGTHS</p><h2>選ばれる理由</h2></div>
+          <p>長くお付き合いいただける身近な整備工場として、誠実な対応と確かな仕事を大切にしています。</p>
         </div>
-        <div class="about-grid">
-          <article class="doctor-card">
-            <img class="doctor-photo" src="director-kanno.png" alt="菅野小児科医院 院長 菅野恒治">
-            <div class="doctor-copy">
-              <p class="card-label">院長</p>
-              <h3>菅野 恒治</h3>
-              <p>お子さまの体調や成長について、気になることを安心してお話しいただける診療を心がけています。</p>
-            </div>
-          </article>
-          <article class="feature-card">
-            <p class="card-label">当院の特徴</p>
-            <h3>予防接種について幅広くご相談いただけます</h3>
-            <ul class="check-list">
-              <li>予防接種相談</li>
-              <li>海外渡航・留学前の予防接種相談</li>
-              <li>成人の予防接種相談</li>
-              <li>免疫保有状況の相談</li>
-            </ul>
-          </article>
+        <div class="reason-grid">
+          <article class="reason-card"><span class="reason-number">01</span><span class="reason-kanji">街</span><h3>地域密着</h3><p>盛岡市南大通で、地域の方々のカーライフを支えてきました。お車の身近な相談先としてお付き合いします。</p></article>
+          <article class="reason-card"><span class="reason-number">02</span><span class="reason-kanji">技</span><h3>丁寧な仕事</h3><p>一台一台の状態をよく見て、必要な整備を丁寧に行います。内容もわかりやすくご説明します。</p></article>
+          <article class="reason-card"><span class="reason-number">03</span><span class="reason-kanji">歴</span><h3>長年の経験と実績</h3><p>長年培ってきた経験を活かし、日々の点検から修理、車検まで幅広く対応しています。</p></article>
         </div>
-        <article class="clinic-about-card">
-          <div class="clinic-photo">
-            <img src="clinic-exterior.jpg" alt="菅野小児科医院の外観">
-            <div class="clinic-photo-placeholder" aria-hidden="true">
-              <span>+</span>
-              <p>医院外観写真</p>
-            </div>
-          </div>
-          <div class="clinic-about-copy">
-            <p class="card-label">Our clinic</p>
-            <h3>医院について</h3>
-            <p>長年にわたり、盛岡市山岸で地域のお子様の健康を支えてきました。菅野小児科医院は、地域密着型の小児科として、お子様の体調不良はもちろん、予防接種や免疫保有状況、海外渡航・留学前の予防接種相談にも対応しています。</p>
-          </div>
-        </article>
       </div>
     </section>
 
-    <section class="symptoms-section section">
+    <section class="section services" id="services">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Symptoms</p>
-          <h2>こんな症状はご相談ください</h2>
-          <p>お子様の体調で気になることがありましたら、どうぞお気軽にお電話ください。</p>
-        </div>
-        <ul class="symptom-grid" aria-label="ご相談いただける症状">
-          <li><span class="symptom-icon" aria-hidden="true">熱</span><strong>発熱</strong></li>
-          <li><span class="symptom-icon" aria-hidden="true">咳</span><strong>咳</strong></li>
-          <li><span class="symptom-icon" aria-hidden="true">鼻</span><strong>鼻水</strong></li>
-          <li><span class="symptom-icon" aria-hidden="true">腹</span><strong>腹痛</strong></li>
-          <li><span class="symptom-icon" aria-hidden="true">予</span><strong>予防接種</strong></li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="services" class="section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Medical services</p>
-          <h2>診療案内</h2>
-          <p>お子さまの日々の体調から健やかな成長、予防接種まで幅広くご相談ください。</p>
+        <div class="section-heading light">
+          <div><p class="eyebrow">SERVICES</p><h2>お車のこと、<br>ご相談ください。</h2></div>
+          <p>整備・修理から車両販売、保険まで。内容や費用について丁寧にご説明いたします。</p>
         </div>
         <div class="service-grid">
-          <article class="service-card">
-            <span class="service-number" aria-hidden="true">01</span>
-            <h3>一般小児科</h3>
-            <p>発熱、せき、鼻水、腹痛など、お子さまの体調不良をご相談ください。</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number" aria-hidden="true">02</span>
-            <h3>予防接種</h3>
-            <p>定期・任意の予防接種や、成人の予防接種についてご相談いただけます。</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number" aria-hidden="true">03</span>
-            <h3>乳幼児健診</h3>
-            <p>お子さまの成長や発達、子育ての中で気になることを一緒に確認します。</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number" aria-hidden="true">04</span>
-            <h3>海外渡航向け<br>ワクチン相談</h3>
-            <p>海外渡航・留学前の予防接種や、免疫保有状況についてご相談いただけます。</p>
-          </article>
+          <article class="service-card"><span>01</span><h3>車検</h3><p>安全を第一に、必要な整備を見極めて対応します。</p></article>
+          <article class="service-card"><span>02</span><h3>点検整備</h3><p>定期的な点検で、お車の不調を早めに確認します。</p></article>
+          <article class="service-card"><span>03</span><h3>一般修理</h3><p>異音や故障など、気になる症状をご相談ください。</p></article>
+          <article class="service-card"><span>04</span><h3>オイル交換</h3><p>お車に合ったオイルで、定期交換を行います。</p></article>
+          <article class="service-card"><span>05</span><h3>タイヤ交換</h3><p>季節に合わせたタイヤ交換を承ります。</p></article>
+          <article class="service-card"><span>06</span><h3>バッテリー交換</h3><p>点検から交換まで、状態に合わせて対応します。</p></article>
+          <article class="service-card"><span>07</span><h3>板金塗装</h3><p>キズやへこみなどの修理をご相談いただけます。</p></article>
+          <article class="service-card"><span>08</span><h3>新車販売</h3><p>ご希望に合った新車選びをお手伝いします。</p></article>
+          <article class="service-card"><span>09</span><h3>中古車販売</h3><p>用途やご予算に合わせてご相談を承ります。</p></article>
+          <article class="service-card"><span>10</span><h3>損害保険代理業務</h3><p>自動車保険についてもお気軽にご相談ください。</p></article>
         </div>
-        <p class="service-note">予防接種・健診をご希望の方は、事前にお電話でお問い合わせください。</p>
+        <p class="service-note">※ 内容によっては対応できない場合があります。まずはお電話にてご相談ください。</p>
       </div>
     </section>
 
-    <section id="hours" class="section section-tint">
-      <div class="container narrow">
-        <div class="section-heading">
-          <p class="eyebrow">Consultation hours</p>
-          <h2>診療時間</h2>
+    <section class="first-visit" id="first-visit">
+      <div class="container first-visit-inner">
+        <div>
+          <p class="eyebrow">FIRST VISIT</p>
+          <h2>初めての方へ</h2>
         </div>
-        <div class="hours-card">
-          <div class="table-wrap">
-            <table>
-              <caption class="sr-only">菅野小児科医院の診療時間</caption>
-              <thead>
-                <tr><th scope="col">曜日</th><th scope="col">午前</th><th scope="col">午後</th></tr>
-              </thead>
-              <tbody>
-                <tr><th scope="row">月</th><td>9:00〜12:00</td><td>14:00〜17:00</td></tr>
-                <tr><th scope="row">火</th><td>9:00〜12:00</td><td class="closed">休診</td></tr>
-                <tr><th scope="row">水</th><td>9:00〜12:00</td><td>14:00〜17:00</td></tr>
-                <tr><th scope="row">木</th><td>9:00〜12:00</td><td>13:30〜17:00</td></tr>
-                <tr><th scope="row">金</th><td>9:00〜12:00</td><td>14:00〜17:00</td></tr>
-                <tr><th scope="row">土</th><td>9:00〜12:00</td><td>13:30〜15:00</td></tr>
-                <tr><th scope="row">日・祝</th><td class="closed">休診</td><td class="closed">休診</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="hours-note"><span aria-hidden="true">※</span> 火曜日午後、日曜日、祝日は休診です。</p>
+        <div class="first-visit-copy">
+          <p>初めての方でも、お電話でお気軽にご相談ください。<br>お車の状態を確認し、必要な整備内容をわかりやすくご説明します。</p>
+          <a href="tel:0196533033">電話で相談する <strong>019-653-3033</strong><span>→</span></a>
         </div>
       </div>
     </section>
 
-    <section id="access" class="section">
+    <section class="section workshop" id="workshop">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Access</p>
-          <h2>アクセス</h2>
+        <div class="workshop-heading">
+          <div><p class="eyebrow">OUR WORKSHOP</p><h2>日々、車と向き合う場所。</h2></div>
+          <p>使い込まれた工具や設備とともに、日々お客様の車と向き合っています。町工場ならではの距離の近さと、丁寧な仕事を大切にしています。</p>
         </div>
-        <div class="access-grid">
-          <div class="access-info">
-            <h3>菅野小児科医院</h3>
-            <dl>
-              <div><dt>住所</dt><dd>〒020-0004<br>岩手県盛岡市山岸2-11-36</dd></div>
-              <div><dt>電話</dt><dd><a href="tel:0196224448">019-622-4448</a></dd></div>
-              <div><dt>FAX</dt><dd>019-622-4446</dd></div>
-              <div class="parking-info">
-                <dt><span class="parking-icon" aria-hidden="true">P</span>駐車場案内</dt>
-                <dd>駐車場をご利用いただけます。お車でお越しの方も安心してご来院ください。</dd>
-              </div>
-              <div><dt>入院設備</dt><dd>なし</dd></div>
-            </dl>
-            <a class="button button-secondary map-link" href="https://www.google.com/maps/search/?api=1&query=%E8%8F%85%E9%87%8E%E5%B0%8F%E5%85%90%E7%A7%91%E5%8C%BB%E9%99%A2+%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E5%B1%B1%E5%B2%B82-11-36" target="_blank" rel="noopener noreferrer">Googleマップで見る</a>
-          </div>
-          <div class="map-frame">
-            <iframe title="菅野小児科医院 周辺地図" src="https://maps.google.com/maps?q=%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E5%B1%B1%E5%B2%B82-11-36&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+        <div class="workshop-photos">
+          <figure class="workshop-photo main-photo"><img src="assets/workshop-tools.jpg" alt="藤鉄モータースの作業場に並ぶ工具と整備設備"><figcaption>日々の点検・整備を支える工具と設備</figcaption></figure>
+          <figure class="workshop-photo detail-photo"><img src="assets/workshop-tires.jpg" alt="藤鉄モータースの作業場に積まれたタイヤ"><figcaption>長年使い続けてきた作業場</figcaption></figure>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="contact-section">
-      <div class="container contact-inner">
-        <p class="eyebrow">Contact</p>
-        <h2>お電話はこちら</h2>
-        <p>受診・予防接種・健診についてのご相談は、お電話でお問い合わせください。</p>
-        <a class="contact-phone" href="tel:0196224448"><span aria-hidden="true">☎</span> 019-622-4448</a>
-        <p class="contact-hours">受付時間：診療時間内</p>
+    <section class="section company" id="company">
+      <div class="container company-grid">
+        <div><p class="eyebrow">COMPANY</p><h2>会社概要</h2><p class="company-note">地域の皆さまに信頼していただける整備工場を目指し、これからも一つひとつの仕事を大切にしてまいります。</p></div>
+        <div class="company-info">
+          <dl>
+            <div><dt>会社名</dt><dd>有限会社 藤鉄モータース</dd></div>
+            <div><dt>所在地</dt><dd>岩手県盛岡市南大通二丁目6番22号</dd></div>
+            <div><dt>電話番号</dt><dd><a href="tel:0196533033">019-653-3033</a></dd></div>
+            <div><dt>営業時間</dt><dd>9:00〜18:00</dd></div>
+            <div><dt>定休日</dt><dd>土曜・日曜・祝日</dd></div>
+            <div><dt>設立</dt><dd>昭和26年3月28日</dd></div>
+            <div><dt>代表者</dt><dd>藤原 秀雄</dd></div>
+            <div><dt>従業員数</dt><dd>4名</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-top">
+        <div><p class="eyebrow">CONTACT</p><h2>お車のこと、<br>まずはお電話ください。</h2><p>車検のご相談、気になる音や不調など、気軽にお問い合わせください。</p></div>
+        <a class="phone-card" href="tel:0196533033"><span>電話で問い合わせる</span><strong>019-653-3033</strong><em>受付時間 9:00〜18:00<br>定休日 土曜・日曜・祝日</em></a>
+      </div>
+      <div class="container access-grid">
+        <div class="access-info"><p class="eyebrow">ACCESS</p><h3>有限会社 藤鉄モータース</h3><p>岩手県盛岡市南大通二丁目6番22号</p><a href="https://www.google.com/maps/search/?api=1&query=岩手県盛岡市南大通二丁目6番22号" target="_blank" rel="noopener">Google マップで見る →</a></div>
+        <div class="map-wrap"><iframe title="藤鉄モータース周辺地図" src="https://maps.google.com/maps?q=岩手県盛岡市南大通二丁目6番22号&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div><strong>菅野小児科医院</strong><p>〒020-0004 岩手県盛岡市山岸2-11-36</p></div>
-      <p><small>&copy; <span id="copyright-year"></span> 菅野小児科医院</small></p>
+  <footer>
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">藤</span><span class="brand-copy"><strong>有限会社 藤鉄モータース</strong><small>FUJITETSU MOTORS</small></span></a>
+      <div class="footer-info"><p>岩手県盛岡市南大通二丁目6番22号</p><p><a href="tel:0196533033">TEL 019-653-3033</a></p><p>営業時間 9:00〜18:00 ／ 定休日 土曜・日曜・祝日</p></div>
     </div>
-    <div class="container creator-info">
-      <p class="creator-name">制作者：<a href="https://iwatedigital.jp/" target="_blank" rel="noopener noreferrer">IWATE DIGITAL</a></p>
-      <p>ホームページに関する修正・変更依頼・その他ご相談は下記までご連絡ください。</p>
-      <p class="creator-email">メール：<a href="mailto:iwatedigital.jp@gmail.com">iwatedigital.jp@gmail.com</a></p>
-      <p class="creator-note">※診療内容や受診に関するお問い合わせは、菅野小児科医院へ直接ご連絡ください。</p>
+    <div class="container footer-bottom">
+      <div class="creator-info">
+        <p>制作者：<a href="https://h-suzukaze.github.io/iwate-digital/" target="_blank" rel="noopener noreferrer">IWATE DIGITAL</a></p>
+        <p>ホームページに関する修正・変更のご依頼、ご相談は下記までご連絡ください。</p>
+        <p>メール：<a href="mailto:iwatedigital.jp@gmail.com">iwatedigital.jp@gmail.com</a></p>
+        <p class="creator-note">※営業内容や整備・修理に関するお問い合わせは、藤鉄モータースへ直接ご連絡ください。</p>
+      </div>
+      <small class="copyright-text">© 2026 FUJITETSU MOTORS. ALL RIGHTS RESERVED.</small>
     </div>
   </footer>
-
-  <a class="mobile-call" href="tel:0196224448"><span aria-hidden="true">☎</span> 電話で問い合わせる</a>
-  <script src="script.js" defer></script>
+  <script src="script.js"></script>
 </body>
 </html>
