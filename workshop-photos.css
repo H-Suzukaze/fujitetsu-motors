@@ -128,7 +128,7 @@
   .hero-bg {
     background:
       linear-gradient(90deg, rgba(5, 19, 32, .9), rgba(5, 19, 32, .6)),
-      url("workshop-tires.jpg") center 56% / cover no-repeat;
+      url("hero-workshop.jpg") center 56% / cover no-repeat;
   }
 
   .workshop-photo {
